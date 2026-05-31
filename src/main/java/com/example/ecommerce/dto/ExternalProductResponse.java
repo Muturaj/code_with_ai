@@ -1,0 +1,13 @@
+package com.example.ecommerce.dto;
+
+import java.math.BigDecimal;
+
+public record ExternalProductResponse(
+        Integer id,
+        String title,
+        BigDecimal price,
+        String description,
+        String category,
+        String image
+) {
+}
